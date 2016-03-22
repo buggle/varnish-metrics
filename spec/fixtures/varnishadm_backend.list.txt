@@ -1,0 +1,5 @@
+Backend name                   Admin      Probe
+boot.default                   probe      Healthy 60/60
+boot.backend_a                 probe      Sick 0/50
+boot.backend_b                 probe      Sick 0/50
+boot.backend_defect            probe      Sick 0/50

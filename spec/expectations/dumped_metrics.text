@@ -1,0 +1,8 @@
+cache_filling=10427
+cachesize=524288000
+cache_hit_rate=0.9
+backend_health_status=
+default=Healthy 60/60
+backend_a=Sick 0/50
+backend_b=Sick 0/50
+backend_defect=Sick 0/50
