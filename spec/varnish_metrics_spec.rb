@@ -31,6 +31,7 @@ describe VarnishMetrics do
 
   it "respects instance" do
     expect( varnish_metrics ).to receive(:`).with("varnishstat -1 -n 127.0.0.1").and_return varnishstat_fixture
+    expect( varnish_metrics ).to receive(:puts)
 
     varnish_metrics.dump_metrics(instance: "127.0.0.1", output: "json")
   end
